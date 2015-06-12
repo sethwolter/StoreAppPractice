@@ -1,0 +1,6 @@
+C:\Work\ClassWork\WeekEightClass\ConsoleUi\ConsoleUi\bin\Debug\ConsoleUi.exe.config
+C:\Work\ClassWork\WeekEightClass\ConsoleUi\ConsoleUi\bin\Debug\ConsoleUi.exe
+C:\Work\ClassWork\WeekEightClass\ConsoleUi\ConsoleUi\bin\Debug\ConsoleUi.pdb
+C:\Work\ClassWork\WeekEightClass\ConsoleUi\ConsoleUi\obj\Debug\ConsoleUi.csprojResolveAssemblyReference.cache
+C:\Work\ClassWork\WeekEightClass\ConsoleUi\ConsoleUi\obj\Debug\ConsoleUi.exe
+C:\Work\ClassWork\WeekEightClass\ConsoleUi\ConsoleUi\obj\Debug\ConsoleUi.pdb
