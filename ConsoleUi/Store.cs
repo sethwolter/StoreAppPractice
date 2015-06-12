@@ -3,19 +3,28 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ConsoleUi
+namespace StoreProject.Core
+
 {
     public class Store
     {
-        private IList<Product> AllProducts();
+        private IList<Product> products;
 
-            public IEnumerable<Product>AllProducts()
+        public Store();
+        {
+            products = new List<Product>
             {
-                return products;
-            }
-    
-public  IEnumerable<Product> products { get; set; }}
-          
+                new Product("Ghurka Knife", "Ghu123", 19.95m),
+                new Product("Bazooka", "Baz123", 199.95m),
+                new Product("Pistol Ammo", "Pis123", 12.95m)
+            };
+        }
+
+        public IEnumerable<Product> AllProducts()
+        {
+            return products;
+        }
+    }     
 } 
     
 

@@ -5,12 +5,9 @@ using System.Text;
 
 namespace ConsoleUi
 {
-    class Product : Store
+    public class Product 
     {
-        public override string ToString()
-        {
-            return "a product";
-        }
+
         public Product(string name, string sku, decimal price)
         {
             Name = name;
@@ -21,23 +18,9 @@ namespace ConsoleUi
         public string Sku { get; set; }
         public decimal Price { get; set; }
 
-        private IList<Product> products { get; set; }
-
-        
-        public Store();
+        public override string ToString()
         {
-            products = new List<Product>
-            {
-                new Product("Ghurka Knife", "Ghu123", 19.95m),
-                new Product("Bazooka", "Baz123", 199.95m),
-                new Product("Pistol Ammo", "Pis123", 12.95m)
-            };
-            products.Add(new Product());
-
-        return string.Format("{0}: {1}: {3}:")
-
+            return string.Format("({0}) {1}: {2}", Sku, Name, Price);
         }
-
-
     }
 }

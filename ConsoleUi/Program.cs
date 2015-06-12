@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StoreProject.Core;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -39,11 +40,12 @@ namespace ConsoleUi
             Console.WriteLine();
             return Console.ReadLine().Trim().ToLower();
         }
+
         private static void ListProducts(Store store)
         {
             foreach(var product in store.AllProducts())
             {
-                Console.WriteLine(product);
+                Console.WriteLine(product.ToString());
             }
         }
     }
